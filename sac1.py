@@ -7,14 +7,14 @@ spark = SparkSession.builder.appName("SAC-Test").enableHiveSupport().getOrCreate
 
 hive = HiveWarehouseSession.session(spark).build()
 
-hive.setDatabase("drw")
+hive.setDatabase("sactest")
 
 schema = T.StructType()
 schema.add(T.StructField("col1", T.IntegerType(), False))
 schema.add(T.StructField("col2", T.StringType(), False))
 schema.add(T.StructField("col3", T.DateType(), False))
 
-df = spark.read.csv("/tmp/sac_test_1.csv", schema, header=True, quote="'")
+df = spark.read.csv("/tmp/test_data.csv", schema, header=True, quote="'")
 
 df.write.format(HiveWarehouseSession.HIVE_WAREHOUSE_CONNECTOR).mode("append").option("table", "sac_test").save()
 
