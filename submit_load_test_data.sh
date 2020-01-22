@@ -9,7 +9,7 @@ spark-submit --master yarn \
              --deploy-mode client \
              --jars $HWC_JAR \
              --py-files $HWC_PY \
-             sac1.py
+             load_test_data.py
 
              #--conf spark.datasource.hive.warehouse.metastoreUri=thrift://cluster3-node-0.dlm.local:9083 \
              #--conf spark.datasource.hive.warehouse.load.staging.dir=/tmp \
