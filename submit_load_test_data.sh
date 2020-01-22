@@ -11,9 +11,4 @@ spark-submit --master yarn \
              --py-files $HWC_PY \
              load_test_data.py
 
-             #--conf spark.datasource.hive.warehouse.metastoreUri=thrift://cluster3-node-0.dlm.local:9083 \
-             #--conf spark.datasource.hive.warehouse.load.staging.dir=/tmp \
-             #--conf spark.hadoop.hive.llap.daemon.service.hosts=@llap0 \
-             #--conf spark.hadoop.hive.zookeeper.quorum=cluster3-node-0.dlm.local:2181 \
-
 

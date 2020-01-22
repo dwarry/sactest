@@ -1,0 +1,301 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/hdp/3.1.4.0-315/spark-atlas-connector/spark-atlas-connector-assembly-0.1.0.3.1.4.0-315.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/hdp/3.1.4.0-315/spark2/jars/slf4j-log4j12-1.7.16.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+20/01/22 21:20:20 INFO SparkContext: Running Spark version 2.3.2.3.1.4.0-315
+20/01/22 21:20:20 INFO SparkContext: Submitted application: SAC-Test
+20/01/22 21:20:20 INFO SecurityManager: Changing view acls to: mario
+20/01/22 21:20:20 INFO SecurityManager: Changing modify acls to: mario
+20/01/22 21:20:20 INFO SecurityManager: Changing view acls groups to: 
+20/01/22 21:20:20 INFO SecurityManager: Changing modify acls groups to: 
+20/01/22 21:20:20 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(mario); groups with view permissions: Set(); users  with modify permissions: Set(mario); groups with modify permissions: Set()
+20/01/22 21:20:21 INFO Utils: Successfully started service 'sparkDriver' on port 40432.
+20/01/22 21:20:21 INFO SparkEnv: Registering MapOutputTracker
+20/01/22 21:20:21 INFO SparkEnv: Registering BlockManagerMaster
+20/01/22 21:20:21 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/01/22 21:20:21 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/01/22 21:20:21 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-f19b4e64-ed12-446b-b927-cbdc69149ae8
+20/01/22 21:20:21 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+20/01/22 21:20:21 INFO SparkEnv: Registering OutputCommitCoordinator
+20/01/22 21:20:21 INFO log: Logging initialized @2874ms
+20/01/22 21:20:21 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T17:11:56Z, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+20/01/22 21:20:21 INFO Server: Started @3018ms
+20/01/22 21:20:21 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/01/22 21:20:21 INFO AbstractConnector: Started ServerConnector@17f3cb74{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+20/01/22 21:20:21 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6b046cbd{/jobs,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@75e9907e{/jobs/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7980d2dd{/jobs/job,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@263e749f{/jobs/job/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f6d6a46{/stages,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6084554c{/stages/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5044c922{/stages/stage,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@332cb5c5{/stages/stage/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4557775b{/stages/pool,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1e2e50d5{/stages/pool/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6a1e9794{/storage,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3c4a858f{/storage/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@42d9d0f2{/storage/rdd,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2e9d9884{/storage/rdd/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@30a108f4{/environment,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@582f8592{/environment/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@547d9025{/executors,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@16e67b96{/executors/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2eb82716{/executors/threadDump,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@a9f3446{/executors/threadDump/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@32db7188{/static,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@452fbb8b{/,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6faa4c41{/api,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5e82bee4{/jobs/job/kill,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6ae68f96{/stages/stage/kill,null,AVAILABLE,@Spark}
+20/01/22 21:20:21 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://cluster3-node-0.dlm.local:4041
+20/01/22 21:20:22 INFO RMProxy: Connecting to ResourceManager at cluster3-node-0.dlm.local/10.0.103.11:8050
+20/01/22 21:20:23 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/01/22 21:20:23 INFO Configuration: found resource resource-types.xml at file:/etc/hadoop/3.1.4.0-315/0/resource-types.xml
+20/01/22 21:20:23 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (16384 MB per container)
+20/01/22 21:20:23 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/01/22 21:20:23 INFO Client: Setting up container launch context for our AM
+20/01/22 21:20:23 INFO Client: Setting up the launch environment for our AM container
+20/01/22 21:20:23 INFO Client: Preparing resources for our AM container
+20/01/22 21:20:23 INFO HadoopFSDelegationTokenProvider: getting token for: DFS[DFSClient[clientName=DFSClient_NONMAPREDUCE_1621140585_19, ugi=mario@DLM.LOCAL (auth:KERBEROS)]]
+20/01/22 21:20:23 INFO DFSClient: Created token for mario: HDFS_DELEGATION_TOKEN owner=mario@DLM.LOCAL, renewer=yarn, realUser=, issueDate=1579728023514, maxDate=1580332823514, sequenceNumber=3666, masterKeyId=98 on 10.0.103.11:8020
+20/01/22 21:20:23 INFO KMSClientProvider: New token created: (Kind: kms-dt, Service: kms://http@cluster3-node-0.dlm.local:9292/kms, Ident: (kms-dt owner=mario, renewer=yarn, realUser=, issueDate=1579728023655, maxDate=1580332823655, sequenceNumber=3056, masterKeyId=36))
+20/01/22 21:20:25 INFO HiveServer2CredentialProvider: Getting HS2 delegation token for mario via jdbc:hive2://cluster3-node-0.dlm.local:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-interactive;principal=hive/_HOST@DLM.LOCAL
+20/01/22 21:20:26 INFO CuratorFrameworkImpl: Starting
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:zookeeper.version=3.4.6-315--1, built on 08/23/2019 04:37 GMT
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:host.name=cluster3-node-0.dlm.local
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:java.version=1.8.0_232
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:java.vendor=Oracle Corporation
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:java.class.path=/usr/hdp/current/spark-atlas-connector/spark-atlas-connector-assembly-0.1.0.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/conf/:/usr/hdp/current/spark2-client/jars/hk2-api-2.4.0-b34.jar:/usr/hdp/current/spark2-client/jars/HikariCP-2.5.1.jar:/usr/hdp/current/spark2-client/jars/curator-framework-2.12.0.jar:/usr/hdp/current/spark2-client/jars/HikariCP-java7-2.4.12.jar:/usr/hdp/current/spark2-client/jars/hk2-locator-2.4.0-b34.jar:/usr/hdp/current/spark2-client/jars/JavaEWAH-0.3.2.jar:/usr/hdp/current/spark2-client/jars/curator-recipes-2.12.0.jar:/usr/hdp/current/spark2-client/jars/RoaringBitmap-0.5.11.jar:/usr/hdp/current/spark2-client/jars/hk2-utils-2.4.0-b34.jar:/usr/hdp/current/spark2-client/jars/ST4-4.0.4.jar:/usr/hdp/current/spark2-client/jars/datanucleus-api-jdo-4.2.1.jar:/usr/hdp/current/spark2-client/jars/accessors-smart-1.2.jar:/usr/hdp/current/spark2-client/jars/datanucleus-core-4.1.6.jar:/usr/hdp/current/spark2-client/jars/activation-1.1.1.jar:/usr/hdp/current/spark2-client/jars/datanucleus-rdbms-4.1.7.jar:/usr/hdp/current/spark2-client/jars/aircompressor-0.8.jar:/usr/hdp/current/spark2-client/jars/commons-compiler-3.0.8.jar:/usr/hdp/current/spark2-client/jars/animal-sniffer-annotations-1.17.jar:/usr/hdp/current/spark2-client/jars/ivy-2.4.0.jar:/usr/hdp/current/spark2-client/jars/antlr-2.7.7.jar:/usr/hdp/current/spark2-client/jars/derby-10.12.1.1.jar:/usr/hdp/current/spark2-client/jars/antlr-runtime-3.4.jar:/usr/hdp/current/spark2-client/jars/dnsjava-2.1.7.jar:/usr/hdp/current/spark2-client/jars/antlr4-runtime-4.7.jar:/usr/hdp/current/spark2-client/jars/hppc-0.7.2.jar:/usr/hdp/current/spark2-client/jars/aopalliance-1.0.jar:/usr/hdp/current/spark2-client/jars/commons-lang-2.6.jar:/usr/hdp/current/spark2-client/jars/janino-3.0.8.jar:/usr/hdp/current/spark2-client/jars/aopalliance-repackaged-2.4.0-b34.jar:/usr/hdp/current/spark2-client/jars/commons-compress-1.4.1.jar:/usr/hdp/current/spark2-client/jars/apache-log4j-extras-1.2.17.jar:/usr/hdp/current/spark2-client/jars/ehcache-3.3.1.jar:/usr/hdp/current/spark2-client/jars/arpack_combined_all-0.1.jar:/usr/hdp/current/spark2-client/jars/commons-configuration2-2.1.1.jar:/usr/hdp/current/spark2-client/jars/arrow-format-0.8.0.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/commons-crypto-1.0.0.jar:/usr/hdp/current/spark2-client/jars/arrow-memory-0.8.0.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/commons-math3-3.4.1.jar:/usr/hdp/current/spark2-client/jars/arrow-vector-0.8.0.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/httpclient-4.5.4.jar:/usr/hdp/current/spark2-client/jars/avro-1.7.7.jar:/usr/hdp/current/spark2-client/jars/httpcore-4.4.8.jar:/usr/hdp/current/spark2-client/jars/avro-ipc-1.7.7.jar:/usr/hdp/current/spark2-client/jars/commons-logging-1.1.3.jar:/usr/hdp/current/spark2-client/jars/avro-mapred-1.7.7-hadoop2.jar:/usr/hdp/current/spark2-client/jars/commons-net-2.2.jar:/usr/hdp/current/spark2-client/jars/jpam-1.1.jar:/usr/hdp/current/spark2-client/jars/aws-java-sdk-bundle-1.11.375.jar:/usr/hdp/current/spark2-client/jars/commons-pool-1.5.4.jar:/usr/hdp/current/spark2-client/jars/azure-data-lake-store-sdk-2.3.3.jar:/usr/hdp/current/spark2-client/jars/compress-lzf-1.0.3.jar:/usr/hdp/current/spark2-client/jars/azure-keyvault-core-1.0.0.jar:/usr/hdp/current/spark2-client/jars/eigenbase-properties-1.1.5.jar:/usr/hdp/current/spark2-client/jars/azure-storage-7.0.0.jar:/usr/hdp/current/spark2-client/jars/error_prone_annotations-2.3.2.jar:/usr/hdp/current/spark2-client/jars/bcpkix-jdk15on-1.60.jar:/usr/hdp/current/spark2-client/jars/failureaccess-1.0.1.jar:/usr/hdp/current/spark2-client/jars/bcprov-jdk15on-1.60.jar:/usr/hdp/current/spark2-client/jars/flatbuffers-1.2.0-3f79e055.jar:/usr/hdp/current/spark2-client/jars/bonecp-0.8.0.RELEASE.jar:/usr/hdp/current/spark2-client/jars/gcs-connector-1.9.10.3.1.4.0-315-shaded.jar:/usr/hdp/current/spark2-client/jars/breeze-macros_2.11-0.13.2.jar:/usr/hdp/current/spark2-client/jars/flogger-0.3.1.jar:/usr/hdp/current/spark2-client/jars/breeze_2.11-0.13.2.jar:/usr/hdp/current/spark2-client/jars/commons-collections-3.2.2.jar:/usr/hdp/current/spark2-client/jars/calcite-avatica-1.2.0-incubating.jar:/usr/hdp/current/spark2-client/jars/core-1.1.2.jar:/usr/hdp/current/spark2-client/jars/jta-1.1.jar:/usr/hdp/current/spark2-client/jars/calcite-core-1.2.0-incubating.jar:/usr/hdp/current/spark2-client/jars/curator-client-2.12.0.jar:/usr/hdp/current/spark2-client/jars/calcite-linq4j-1.2.0-incubating.jar:/usr/hdp/current/spark2-client/jars/flogger-log4j-backend-0.3.1.jar:/usr/hdp/current/spark2-client/jars/checker-qual-2.8.1.jar:/usr/hdp/current/spark2-client/jars/flogger-system-backend-0.3.1.jar:/usr/hdp/current/spark2-client/jars/chill-java-0.8.4.jar:/usr/hdp/current/spark2-client/jars/gson-2.2.4.jar:/usr/hdp/current/spark2-client/jars/chill_2.11-0.8.4.jar:/usr/hdp/current/spark2-client/jars/google-extensions-0.3.1.jar:/usr/hdp/current/spark2-client/jars/commons-beanutils-1.9.3.jar:/usr/hdp/current/spark2-client/jars/jackson-core-2.9.9.jar:/usr/hdp/current/spark2-client/jars/commons-cli-1.2.jar:/usr/hdp/current/spark2-client/jars/guava-28.0-jre.jar:/usr/hdp/current/spark2-client/jars/commons-codec-1.10.jar:/usr/hdp/current/spark2-client/jars/commons-daemon-1.0.13.jar:/usr/hdp/current/spark2-client/jars/hadoop-auth-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/commons-dbcp-1.4.jar:/usr/hdp/current/spark2-client/jars/guice-4.0.jar:/usr/hdp/current/spark2-client/jars/commons-httpclient-3.1.jar:/usr/hdp/current/spark2-client/jars/j2objc-annotations-1.3.jar:/usr/hdp/current/spark2-client/jars/commons-io-2.4.jar:/usr/hdp/current/spark2-client/jars/guice-servlet-4.0.jar:/usr/hdp/current/spark2-client/jars/commons-lang3-3.5.jar:/usr/hdp/current/spark2-client/jars/re2j-1.1.jar:/usr/hdp/current/spark2-client/jars/javax.jdo-3.2.0-m3.jar:/usr/hdp/current/spark2-client/jars/xz-1.0.jar:/usr/hdp/current/spark2-client/jars/geronimo-jcache_1.0_spec-1.0-alpha-1.jar:/usr/hdp/current/spark2-client/jars/javax.servlet-api-3.1.0.jar:/usr/hdp/current/spark2-client/jars/hadoop-annotations-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jersey-media-jaxb-2.22.2.jar:/usr/hdp/current/spark2-client/jars/hadoop-aws-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jersey-server-2.22.2.jar:/usr/hdp/current/spark2-client/jars/hadoop-azure-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/javax.ws.rs-api-2.0.1.jar:/usr/hdp/current/spark2-client/jars/hadoop-azure-datalake-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jetty-util-9.3.24.v20180605.jar:/usr/hdp/current/spark2-client/jars/hadoop-client-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/javolution-5.5.1.jar:/usr/hdp/current/spark2-client/jars/kerb-util-1.0.1.jar:/usr/hdp/current/spark2-client/jars/hadoop-cloud-storage-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jetty-util-ajax-9.3.24.v20180605.jar:/usr/hdp/current/spark2-client/jars/hadoop-common-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jaxb-api-2.2.11.jar:/usr/hdp/current/spark2-client/jars/kerby-asn1-1.0.1.jar:/usr/hdp/current/spark2-client/jars/hadoop-hdfs-client-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jackson-module-scala_2.11-2.9.9.jar:/usr/hdp/current/spark2-client/jars/kerby-pkix-1.0.1.jar:/usr/hdp/current/spark2-client/jars/hadoop-mapreduce-client-common-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/javax.annotation-api-1.2.jar:/usr/hdp/current/spark2-client/jars/kerby-util-1.0.1.jar:/usr/hdp/current/spark2-client/jars/hadoop-mapreduce-client-core-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/kerb-crypto-1.0.1.jar:/usr/hdp/current/spark2-client/jars/kerb-core-1.0.1.jar:/usr/hdp/current/spark2-client/jars/hadoop-mapreduce-client-jobclient-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jcip-annotations-1.0-1.jar:/usr/hdp/current/spark2-client/jars/hadoop-openstack-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jcl-over-slf4j-1.7.16.jar:/usr/hdp/current/spark2-client/jars/hadoop-yarn-api-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jdo-api-3.0.1.jar:/usr/hdp/current/spark2-client/jars/kerby-xdr-1.0.1.jar:/usr/hdp/current/spark2-client/jars/hadoop-yarn-client-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jersey-client-2.22.2.jar:/usr/hdp/current/spark2-client/jars/hadoop-yarn-common-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jersey-common-2.22.2.jar:/usr/hdp/current/spark2-client/jars/hadoop-yarn-registry-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/javax.inject-1.jar:/usr/hdp/current/spark2-client/jars/kerb-client-1.0.1.jar:/usr/hdp/current/spark2-client/jars/hadoop-yarn-server-common-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/javax.inject-2.4.0-b34.jar:/usr/hdp/current/spark2-client/jars/libfb303-0.9.3.jar:/usr/hdp/current/spark2-client/jars/hadoop-yarn-server-web-proxy-3.1.1.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jetty-webapp-9.3.24.v20180605.jar:/usr/hdp/current/spark2-client/jars/hive-beeline-1.21.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jetty-xml-9.3.24.v20180605.jar:/usr/hdp/current/spark2-client/jars/hive-cli-1.21.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jline-2.14.3.jar:/usr/hdp/current/spark2-client/jars/hive-exec-1.21.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/joda-time-2.9.3.jar:/usr/hdp/current/spark2-client/jars/hive-jdbc-1.21.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jersey-container-servlet-2.22.2.jar:/usr/hdp/current/spark2-client/jars/hive-metastore-1.21.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/jodd-core-3.5.2.jar:/usr/hdp/current/spark2-client/jars/htrace-core4-4.1.0-incubating.jar:/usr/hdp/current/spark2-client/jars/json-smart-2.3.jar:/usr/hdp/current/spark2-client/jars/jackson-annotations-2.9.9.jar:/usr/hdp/current/spark2-client/jars/jtransforms-2.4.0.jar:/usr/hdp/current/spark2-client/jars/jackson-core-asl-1.9.13.jar:/usr/hdp/current/spark2-client/jars/json4s-ast_2.11-3.2.11.jar:/usr/hdp/current/spark2-client/jars/jackson-databind-2.9.9.1.jar:/usr/hdp/current/spark2-client/jars/json4s-core_2.11-3.2.11.jar:/usr/hdp/current/spark2-client/jars/jackson-dataformat-cbor-2.9.9.jar:/usr/hdp/current/spark2-client/jars/json4s-jackson_2.11-3.2.11.jar:/usr/hdp/current/spark2-client/jars/jackson-jaxrs-base-2.9.9.jar:/usr/hdp/current/spark2-client/jars/jersey-container-servlet-core-2.22.2.jar:/usr/hdp/current/spark2-client/jars/jackson-jaxrs-json-provider-2.9.9.jar:/usr/hdp/current/spark2-client/jars/jsp-api-2.1.jar:/usr/hdp/current/spark2-client/jars/jackson-mapper-asl-1.9.13.jar:/usr/hdp/current/spark2-client/jars/jersey-guava-2.22.2.jar:/usr/hdp/current/spark2-client/jars/jackson-module-jaxb-annotations-2.9.9.jar:/usr/hdp/current/spark2-client/jars/jsr305-1.3.9.jar:/usr/hdp/current/spark2-client/jars/jackson-module-paranamer-2.9.9.jar:/usr/hdp/current/spark2-client/jars/jul-to-slf4j-1.7.16.jar:/usr/hdp/current/spark2-client/jars/javassist-3.18.1-GA.jar:/usr/hdp/current/spark2-client/jars/kerb-admin-1.0.1.jar:/usr/hdp/current/spark2-client/jars/kerb-common-1.0.1.jar:/usr/hdp/current/spark2-client/jars/snappy-java-1.1.2.6.jar:/usr/hdp/current/spark2-client/jars/kerb-identity-1.0.1.jar:/usr/hdp/current/spark2-client/jars/spark-sql_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/kerb-server-1.0.1.jar:/usr/hdp/current/spark2-client/jars/spire-macros_2.11-0.13.0.jar:/usr/hdp/current/spark2-client/jars/kerb-simplekdc-1.0.1.jar:/usr/hdp/current/spark2-client/jars/spire_2.11-0.13.0.jar:/usr/hdp/current/spark2-client/jars/kerby-config-1.0.1.jar:/usr/hdp/current/spark2-client/jars/stax-api-1.0.1.jar:/usr/hdp/current/spark2-client/jars/kryo-shaded-3.0.3.jar:/usr/hdp/current/spark2-client/jars/stax2-api-3.1.4.jar:/usr/hdp/current/spark2-client/jars/leveldbjni-all-1.8.jar:/usr/hdp/current/spark2-client/jars/stream-2.7.0.jar:/usr/hdp/current/spark2-client/jars/libthrift-0.12.0.jar:/usr/hdp/current/spark2-client/jars/super-csv-2.2.0.jar:/usr/hdp/current/spark2-client/jars/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/usr/hdp/current/spark2-client/jars/log4j-1.2.17.jar:/usr/hdp/current/spark2-client/jars/lz4-java-1.4.0.jar:/usr/hdp/current/spark2-client/jars/stringtemplate-3.2.1.jar:/usr/hdp/current/spark2-client/jars/machinist_2.11-0.6.1.jar:/usr/hdp/current/spark2-client/jars/transaction-api-1.1.jar:/usr/hdp/current/spark2-client/jars/macro-compat_2.11-1.1.1.jar:/usr/hdp/current/spark2-client/jars/token-provider-1.0.1.jar:/usr/hdp/current/spark2-client/jars/metrics-core-3.1.5.jar:/usr/hdp/current/spark2-client/jars/univocity-parsers-2.5.9.jar:/usr/hdp/current/spark2-client/jars/metrics-graphite-3.1.5.jar:/usr/hdp/current/spark2-client/jars/wildfly-openssl-1.0.4.Final.jar:/usr/hdp/current/spark2-client/jars/metrics-json-3.1.5.jar:/usr/hdp/current/spark2-client/jars/validation-api-1.1.0.Final.jar:/usr/hdp/current/spark2-client/jars/metrics-jvm-3.1.5.jar:/usr/hdp/current/spark2-client/jars/minlog-1.3.0.jar:/usr/hdp/current/spark2-client/jars/xbean-asm5-shaded-4.4.jar:/usr/hdp/current/spark2-client/jars/mssql-jdbc-6.2.1.jre7.jar:/usr/hdp/current/spark2-client/jars/woodstox-core-5.0.3.jar:/usr/hdp/current/spark2-client/jars/netty-3.9.9.Final.jar:/usr/hdp/current/spark2-client/jars/zookeeper-3.4.6.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/netty-all-4.1.17.Final.jar:/usr/hdp/current/spark2-client/jars/nimbus-jose-jwt-4.41.1.jar:/usr/hdp/current/spark2-client/jars/objenesis-2.1.jar:/usr/hdp/current/spark2-client/jars/okhttp-2.7.5.jar:/usr/hdp/current/spark2-client/jars/okio-1.6.0.jar:/usr/hdp/current/spark2-client/jars/opencsv-2.3.jar:/usr/hdp/current/spark2-client/jars/zstd-jni-1.3.2-2.jar:/usr/hdp/current/spark2-client/jars/orc-core-1.4.4-nohive.jar:/usr/hdp/current/spark2-client/jars/shapeless_2.11-2.3.2.jar:/usr/hdp/current/spark2-client/jars/orc-mapreduce-1.4.4-nohive.jar:/usr/hdp/current/spark2-client/jars/oro-2.0.8.jar:/usr/hdp/current/spark2-client/jars/slf4j-api-1.7.16.jar:/usr/hdp/current/spark2-client/jars/osgi-resource-locator-1.0.1.jar:/usr/hdp/current/spark2-client/jars/paranamer-2.8.jar:/usr/hdp/current/spark2-client/jars/parquet-column-1.8.3.jar:/usr/hdp/current/spark2-client/jars/parquet-common-1.8.3.jar:/usr/hdp/current/spark2-client/jars/parquet-encoding-1.8.3.jar:/usr/hdp/current/spark2-client/jars/parquet-format-2.3.1.jar:/usr/hdp/current/spark2-client/jars/parquet-hadoop-1.8.3.jar:/usr/hdp/current/spark2-client/jars/slf4j-log4j12-1.7.16.jar:/usr/hdp/current/spark2-client/jars/parquet-hadoop-bundle-1.6.0.jar:/usr/hdp/current/spark2-client/jars/parquet-jackson-1.8.3.jar:/usr/hdp/current/spark2-client/jars/protobuf-java-2.5.0.jar:/usr/hdp/current/spark2-client/jars/py4j-0.10.7.jar:/usr/hdp/current/spark2-client/jars/pyrolite-4.13.jar:/usr/hdp/current/spark2-client/jars/scala-compiler-2.11.12.jar:/usr/hdp/current/spark2-client/jars/scala-library-2.11.12.jar:/usr/hdp/current/spark2-client/jars/scalap-2.11.12.jar:/usr/hdp/current/spark2-client/jars/scala-parser-combinators_2.11-1.1.0.jar:/usr/hdp/current/spark2-client/jars/scala-reflect-2.11.12.jar:/usr/hdp/current/spark2-client/jars/scala-xml_2.11-1.0.5.jar:/usr/hdp/current/spark2-client/jars/snappy-0.2.jar:/usr/hdp/current/spark2-client/jars/spark-catalyst_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-core_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-graphx_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-hadoop-cloud_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-hive-thriftserver_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-hive_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-kvstore_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-launcher_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-mllib-local_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-mllib_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-network-common_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-network-shuffle_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-repl_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-sketch_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-streaming_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-tags_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-unsafe_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/current/spark2-client/jars/spark-yarn_2.11-2.3.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hadoop/conf/
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:java.library.path=/usr/hdp/current/hadoop-client/lib/native:/usr/hdp/current/hadoop-client/lib/native/Linux-amd64-64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:java.io.tmpdir=/tmp
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:java.compiler=<NA>
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:os.name=Linux
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:os.arch=amd64
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:os.version=3.10.0-957.27.2.el7.x86_64
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:user.name=mario
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:user.home=/home/mario
+20/01/22 21:20:26 INFO ZooKeeper: Client environment:user.dir=/home/mario/sac_test
+20/01/22 21:20:26 INFO ZooKeeper: Initiating client connection, connectString=cluster3-node-0.dlm.local:2181 sessionTimeout=60000 watcher=shadecurator.org.apache.curator.ConnectionState@4a63591
+20/01/22 21:20:26 INFO ClientCnxn: Opening socket connection to server cluster3-node-0.dlm.local/10.0.103.11:2181. Will not attempt to authenticate using SASL (unknown error)
+20/01/22 21:20:26 INFO ClientCnxn: Socket connection established, initiating session, client: /10.0.103.11:58678, server: cluster3-node-0.dlm.local/10.0.103.11:2181
+20/01/22 21:20:26 INFO ClientCnxn: Session establishment complete on server cluster3-node-0.dlm.local/10.0.103.11:2181, sessionid = 0x16f1db2f3f352c6, negotiated timeout = 60000
+20/01/22 21:20:26 INFO ConnectionStateManager: State change: CONNECTED
+20/01/22 21:20:26 INFO CuratorFrameworkImpl: backgroundOperationsLoop exiting
+20/01/22 21:20:26 INFO ZooKeeper: Session: 0x16f1db2f3f352c6 closed
+20/01/22 21:20:26 INFO ClientCnxn: EventThread shut down
+20/01/22 21:20:26 INFO HiveConnection: Connected to cluster3-node-0.dlm.local:10500
+20/01/22 21:20:26 INFO HiveServer2CredentialProvider: Added HS2 delegation token for mario via jdbc:hive2://cluster3-node-0.dlm.local:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-interactive;principal=hive/_HOST@DLM.LOCAL
+20/01/22 21:20:26 INFO HiveStreamingCredentialProvider: Obtaining delegation token (secure metastore) for hive streaming..
+20/01/22 21:20:26 INFO HiveConf: Found configuration file file:/etc/spark2/3.1.4.0-315/0/hive-site.xml
+20/01/22 21:20:26 INFO HiveStreamingCredentialProvider: Getting Hive delegation token for mario@DLM.LOCAL against hive/_HOST@DLM.LOCAL at thrift://cluster3-node-0.dlm.local:9083
+20/01/22 21:20:27 INFO HiveMetaStoreClient: Trying to connect to metastore with URI thrift://cluster3-node-0.dlm.local:9083
+20/01/22 21:20:27 INFO HiveMetaStoreClient: HMSC::open(): Could not find delegation token. Creating KERBEROS-based thrift connection.
+20/01/22 21:20:27 INFO HiveMetaStoreClient: Opened a connection to metastore, current connections: 1
+20/01/22 21:20:27 INFO HiveMetaStoreClient: Connected to metastore.
+20/01/22 21:20:27 INFO HiveStreamingCredentialProvider: Added delegation token (secure metastore) for hive streaming: Kind: HIVE_DELEGATION_TOKEN, Service: , Ident: 00 0f 6d 61 72 69 6f 40 44 4c 4d 2e 4c 4f 43 41 4c 04 68 69 76 65 0f 6d 61 72 69 6f 40 44 4c 4d 2e 4c 4f 43 41 4c 8a 01 6f cf 20 bd bc 8a 01 6f f3 2d 41 bc 8f 9e 6b alias: HIVE_DELEGATION_TOKEN
+20/01/22 21:20:27 INFO HiveMetaStoreClient: Closed a connection to metastore, current connections: 0
+20/01/22 21:20:27 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://cluster3-node-0.dlm.local:8020/hdp/apps/3.1.4.0-315/spark2/spark2-hdp-yarn-archive.tar.gz
+20/01/22 21:20:27 INFO Client: Source and destination file systems are the same. Not copying hdfs://cluster3-node-0.dlm.local:8020/hdp/apps/3.1.4.0-315/spark2/spark2-hdp-yarn-archive.tar.gz
+20/01/22 21:20:27 INFO Client: Distribute hdfs cache file as spark.sql.hive.metastore.jars for HDP, hdfsCacheFile:hdfs://cluster3-node-0.dlm.local:8020/hdp/apps/3.1.4.0-315/spark2/spark2-hdp-hive-archive.tar.gz
+20/01/22 21:20:27 INFO Client: Source and destination file systems are the same. Not copying hdfs://cluster3-node-0.dlm.local:8020/hdp/apps/3.1.4.0-315/spark2/spark2-hdp-hive-archive.tar.gz
+20/01/22 21:20:27 INFO Client: Uploading resource file:/etc/spark2/conf/atlas-application.properties.yarn#atlas-application.properties -> hdfs://cluster3-node-0.dlm.local:8020/user/mario/.sparkStaging/application_1576751518647_2969/atlas-application.properties.yarn
+20/01/22 21:20:27 INFO Client: Uploading resource file:/usr/hdp/current/spark2-client/python/lib/pyspark.zip -> hdfs://cluster3-node-0.dlm.local:8020/user/mario/.sparkStaging/application_1576751518647_2969/pyspark.zip
+20/01/22 21:20:27 INFO Client: Uploading resource file:/usr/hdp/current/spark2-client/python/lib/py4j-0.10.7-src.zip -> hdfs://cluster3-node-0.dlm.local:8020/user/mario/.sparkStaging/application_1576751518647_2969/py4j-0.10.7-src.zip
+20/01/22 21:20:27 INFO Client: Uploading resource file:/tmp/spark-3a570e64-fc9d-4958-9955-a2884c39982d/__spark_conf__5686633669976482051.zip -> hdfs://cluster3-node-0.dlm.local:8020/user/mario/.sparkStaging/application_1576751518647_2969/__spark_conf__.zip
+20/01/22 21:20:28 INFO SecurityManager: Changing view acls to: mario
+20/01/22 21:20:28 INFO SecurityManager: Changing modify acls to: mario
+20/01/22 21:20:28 INFO SecurityManager: Changing view acls groups to: 
+20/01/22 21:20:28 INFO SecurityManager: Changing modify acls groups to: 
+20/01/22 21:20:28 INFO SecurityManager: SecurityManager: authentication disabled; ui acls enabled; users  with view permissions: Set(mario); groups with view permissions: Set(); users  with modify permissions: Set(mario); groups with modify permissions: Set()
+20/01/22 21:20:28 INFO Client: Submitting application application_1576751518647_2969 to ResourceManager
+20/01/22 21:20:28 INFO YarnClientImpl: Submitted application application_1576751518647_2969
+20/01/22 21:20:28 INFO SchedulerExtensionServices: Starting Yarn extension services with app application_1576751518647_2969 and attemptId None
+20/01/22 21:20:29 INFO Client: Application report for application_1576751518647_2969 (state: ACCEPTED)
+20/01/22 21:20:29 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1579728028218
+	 final status: UNDEFINED
+	 tracking URL: http://cluster3-node-0.dlm.local:8088/proxy/application_1576751518647_2969/
+	 user: mario
+20/01/22 21:20:30 INFO Client: Application report for application_1576751518647_2969 (state: ACCEPTED)
+20/01/22 21:20:31 INFO Client: Application report for application_1576751518647_2969 (state: ACCEPTED)
+20/01/22 21:20:32 INFO Client: Application report for application_1576751518647_2969 (state: ACCEPTED)
+20/01/22 21:20:32 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> cluster3-node-0.dlm.local, PROXY_URI_BASES -> http://cluster3-node-0.dlm.local:8088/proxy/application_1576751518647_2969), /proxy/application_1576751518647_2969
+20/01/22 21:20:32 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /jobs, /jobs/json, /jobs/job, /jobs/job/json, /stages, /stages/json, /stages/stage, /stages/stage/json, /stages/pool, /stages/pool/json, /storage, /storage/json, /storage/rdd, /storage/rdd/json, /environment, /environment/json, /executors, /executors/json, /executors/threadDump, /executors/threadDump/json, /static, /, /api, /jobs/job/kill, /stages/stage/kill.
+20/01/22 21:20:33 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/01/22 21:20:33 INFO Client: Application report for application_1576751518647_2969 (state: RUNNING)
+20/01/22 21:20:33 INFO Client: 
+	 client token: Token { kind: YARN_CLIENT_TOKEN, service:  }
+	 diagnostics: N/A
+	 ApplicationMaster host: 10.0.103.12
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1579728028218
+	 final status: UNDEFINED
+	 tracking URL: http://cluster3-node-0.dlm.local:8088/proxy/application_1576751518647_2969/
+	 user: mario
+20/01/22 21:20:33 INFO YarnClientSchedulerBackend: Application application_1576751518647_2969 has started running.
+20/01/22 21:20:33 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44424.
+20/01/22 21:20:33 INFO NettyBlockTransferService: Server created on cluster3-node-0.dlm.local:44424
+20/01/22 21:20:33 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/01/22 21:20:33 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, cluster3-node-0.dlm.local, 44424, None)
+20/01/22 21:20:33 INFO BlockManagerMasterEndpoint: Registering block manager cluster3-node-0.dlm.local:44424 with 366.3 MB RAM, BlockManagerId(driver, cluster3-node-0.dlm.local, 44424, None)
+20/01/22 21:20:33 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, cluster3-node-0.dlm.local, 44424, None)
+20/01/22 21:20:33 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, cluster3-node-0.dlm.local, 44424, None)
+20/01/22 21:20:33 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /metrics/json.
+20/01/22 21:20:33 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@598fc363{/metrics/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:33 INFO EventLoggingListener: Logging events to hdfs:/spark2-history/application_1576751518647_2969
+20/01/22 21:20:33 INFO ApplicationProperties: Looking for atlas-application.properties in classpath
+20/01/22 21:20:33 INFO ApplicationProperties: Loading atlas-application.properties from file:/etc/spark2/3.1.4.0-315/0/atlas-application.properties
+20/01/22 21:20:33 INFO ApplicationProperties: Using graphdb backend 'janus'
+20/01/22 21:20:33 INFO ApplicationProperties: Using storage backend 'hbase2'
+20/01/22 21:20:33 INFO ApplicationProperties: Using index backend 'solr'
+20/01/22 21:20:33 INFO ApplicationProperties: Atlas is running in MODE: PROD.
+20/01/22 21:20:33 INFO ApplicationProperties: Setting solr-wait-searcher property 'true'
+20/01/22 21:20:33 INFO ApplicationProperties: Setting index.search.map-name property 'false'
+20/01/22 21:20:33 INFO ApplicationProperties: Property (set to default) atlas.graph.cache.db-cache = true
+20/01/22 21:20:33 INFO ApplicationProperties: Property (set to default) atlas.graph.cache.db-cache-clean-wait = 20
+20/01/22 21:20:33 INFO ApplicationProperties: Property (set to default) atlas.graph.cache.db-cache-size = 0.5
+20/01/22 21:20:33 INFO ApplicationProperties: Property (set to default) atlas.graph.cache.tx-cache-size = 15000
+20/01/22 21:20:33 INFO ApplicationProperties: Property (set to default) atlas.graph.cache.tx-dirty-size = 120
+20/01/22 21:20:34 INFO SecureClientUtils: Real User: mario@DLM.LOCAL (auth:KERBEROS), is from ticket cache? true
+20/01/22 21:20:34 INFO SecureClientUtils: doAsUser: null
+20/01/22 21:20:34 INFO AtlasBaseClient: Client has only one service URL, will use that for all actions: http://cluster3-node-0.dlm.local:21000
+20/01/22 21:20:34 INFO SparkContext: Registered listener com.hortonworks.spark.atlas.SparkAtlasEventTracker
+20/01/22 21:20:35 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.0.103.12:57310) with ID 1
+20/01/22 21:20:35 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (10.0.103.12:57308) with ID 2
+20/01/22 21:20:36 INFO BlockManagerMasterEndpoint: Registering block manager cluster3-node-1.dlm.local:42430 with 366.3 MB RAM, BlockManagerId(1, cluster3-node-1.dlm.local, 42430, None)
+20/01/22 21:20:36 INFO BlockManagerMasterEndpoint: Registering block manager cluster3-node-1.dlm.local:37125 with 366.3 MB RAM, BlockManagerId(2, cluster3-node-1.dlm.local, 37125, None)
+20/01/22 21:20:36 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/01/22 21:20:36 INFO SharedState: loading hive config file: file:/etc/spark2/3.1.4.0-315/0/hive-site.xml
+20/01/22 21:20:36 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('/apps/spark/warehouse').
+20/01/22 21:20:36 INFO SharedState: Warehouse path is '/apps/spark/warehouse'.
+20/01/22 21:20:36 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL.
+20/01/22 21:20:36 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@45f9e1eb{/SQL,null,AVAILABLE,@Spark}
+20/01/22 21:20:36 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/json.
+20/01/22 21:20:36 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3a5c9851{/SQL/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:36 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution.
+20/01/22 21:20:36 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@8fd32c7{/SQL/execution,null,AVAILABLE,@Spark}
+20/01/22 21:20:36 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution/json.
+20/01/22 21:20:36 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@121b371f{/SQL/execution/json,null,AVAILABLE,@Spark}
+20/01/22 21:20:36 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /static/sql.
+20/01/22 21:20:36 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4e48d442{/static/sql,null,AVAILABLE,@Spark}
+20/01/22 21:20:36 INFO StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+20/01/22 21:20:36 INFO StreamingQueryManager: Registered listener com.hortonworks.spark.atlas.SparkAtlasStreamingQueryEventTracker
+20/01/22 21:20:37 INFO HiveWarehouseBuilder: Detected spark v2.3.x, setting: spark.datasource.hive.warehouse.disable.pruning.and.pushdowns to true
+20/01/22 21:20:37 INFO HWConf: Using HS2 URL: jdbc:hive2://cluster3-node-0.dlm.local:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-interactive;principal=hive/_HOST@DLM.LOCAL
+20/01/22 21:20:37 INFO HiveWarehouseSessionImpl: Created a new HWC session: 0028e13d-cff2-4958-a82e-a4f3becf56bf
+20/01/22 21:20:37 INFO FileSourceStrategy: Pruning directories with: 
+20/01/22 21:20:37 INFO FileSourceStrategy: Post-Scan Filters: 
+20/01/22 21:20:37 INFO FileSourceStrategy: Output Data Schema: struct<col1: int, col2: string, col3: date ... 1 more fields>
+20/01/22 21:20:37 INFO FileSourceScanExec: Pushed Filters: 
+20/01/22 21:20:38 INFO CuratorFrameworkImpl: Starting
+20/01/22 21:20:38 INFO ZooKeeper: Initiating client connection, connectString=cluster3-node-0.dlm.local:2181 sessionTimeout=60000 watcher=shadecurator.org.apache.curator.ConnectionState@1542b6e2
+20/01/22 21:20:38 INFO ClientCnxn: Opening socket connection to server cluster3-node-0.dlm.local/10.0.103.11:2181. Will not attempt to authenticate using SASL (unknown error)
+20/01/22 21:20:38 INFO ClientCnxn: Socket connection established, initiating session, client: /10.0.103.11:58820, server: cluster3-node-0.dlm.local/10.0.103.11:2181
+20/01/22 21:20:38 INFO ClientCnxn: Session establishment complete on server cluster3-node-0.dlm.local/10.0.103.11:2181, sessionid = 0x16f1db2f3f352c7, negotiated timeout = 60000
+20/01/22 21:20:38 INFO ConnectionStateManager: State change: CONNECTED
+20/01/22 21:20:38 INFO CuratorFrameworkImpl: backgroundOperationsLoop exiting
+20/01/22 21:20:38 INFO ZooKeeper: Session: 0x16f1db2f3f352c7 closed
+20/01/22 21:20:38 INFO ClientCnxn: EventThread shut down
+20/01/22 21:20:38 INFO HiveConnection: Connected to cluster3-node-0.dlm.local:10500
+20/01/22 21:20:38 INFO CuratorFrameworkImpl: Starting
+20/01/22 21:20:38 INFO ZooKeeper: Initiating client connection, connectString=cluster3-node-0.dlm.local:2181 sessionTimeout=60000 watcher=shadecurator.org.apache.curator.ConnectionState@70bb4218
+20/01/22 21:20:38 INFO ClientCnxn: Opening socket connection to server cluster3-node-0.dlm.local/10.0.103.11:2181. Will not attempt to authenticate using SASL (unknown error)
+20/01/22 21:20:38 INFO ClientCnxn: Socket connection established, initiating session, client: /10.0.103.11:58866, server: cluster3-node-0.dlm.local/10.0.103.11:2181
+20/01/22 21:20:38 INFO ClientCnxn: Session establishment complete on server cluster3-node-0.dlm.local/10.0.103.11:2181, sessionid = 0x16f1db2f3f352c8, negotiated timeout = 60000
+20/01/22 21:20:38 INFO ConnectionStateManager: State change: CONNECTED
+20/01/22 21:20:38 INFO CuratorFrameworkImpl: backgroundOperationsLoop exiting
+20/01/22 21:20:38 INFO ZooKeeper: Session: 0x16f1db2f3f352c8 closed
+20/01/22 21:20:38 INFO ClientCnxn: EventThread shut down
+20/01/22 21:20:38 INFO HiveConnection: Connected to cluster3-node-0.dlm.local:10500
+20/01/22 21:20:39 INFO SparkToHiveRecordMapper: Need to reorder/rearrange DF columns to match hive columns order: false
+20/01/22 21:20:39 INFO CodeGenerator: Code generated in 191.403238 ms
+20/01/22 21:20:39 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 433.9 KB, free 365.9 MB)
+20/01/22 21:20:39 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 38.1 KB, free 365.8 MB)
+20/01/22 21:20:39 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on cluster3-node-0.dlm.local:44424 (size: 38.1 KB, free: 366.3 MB)
+20/01/22 21:20:39 INFO SparkContext: Created broadcast 0 from save at NativeMethodAccessorImpl.java:0
+20/01/22 21:20:39 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+20/01/22 21:20:39 INFO WriteToDataSourceV2Exec: Start processing data source writer: com.hortonworks.spark.sql.hive.llap.HiveWarehouseDataSourceWriter@7f5e8a79. The input RDD has 1 partitions.
+20/01/22 21:20:39 INFO SparkContext: Starting job: save at NativeMethodAccessorImpl.java:0
+20/01/22 21:20:39 INFO DAGScheduler: Got job 0 (save at NativeMethodAccessorImpl.java:0) with 1 output partitions
+20/01/22 21:20:39 INFO DAGScheduler: Final stage: ResultStage 0 (save at NativeMethodAccessorImpl.java:0)
+20/01/22 21:20:39 INFO DAGScheduler: Parents of final stage: List()
+20/01/22 21:20:39 INFO DAGScheduler: Missing parents: List()
+20/01/22 21:20:39 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+20/01/22 21:20:39 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 114.0 KB, free 365.7 MB)
+20/01/22 21:20:39 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 40.9 KB, free 365.7 MB)
+20/01/22 21:20:39 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on cluster3-node-0.dlm.local:44424 (size: 40.9 KB, free: 366.2 MB)
+20/01/22 21:20:39 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+20/01/22 21:20:39 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+20/01/22 21:20:39 INFO YarnScheduler: Adding task set 0.0 with 1 tasks
+20/01/22 21:20:39 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, cluster3-node-1.dlm.local, executor 2, partition 0, NODE_LOCAL, 8331 bytes)
+20/01/22 21:20:40 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on cluster3-node-1.dlm.local:37125 (size: 40.9 KB, free: 366.3 MB)
+20/01/22 21:20:41 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on cluster3-node-1.dlm.local:37125 (size: 38.1 KB, free: 366.2 MB)
+20/01/22 21:20:42 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 2282 ms on cluster3-node-1.dlm.local (executor 2) (1/1)
+20/01/22 21:20:42 INFO YarnScheduler: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+20/01/22 21:20:42 INFO DAGScheduler: ResultStage 0 (save at NativeMethodAccessorImpl.java:0) finished in 2.454 s
+20/01/22 21:20:42 INFO DAGScheduler: Job 0 finished: save at NativeMethodAccessorImpl.java:0, took 2.552772 s
+20/01/22 21:20:42 INFO WriteToDataSourceV2Exec: Data source writer com.hortonworks.spark.sql.hive.llap.HiveWarehouseDataSourceWriter@7f5e8a79 is committing.
+20/01/22 21:20:42 INFO HiveWarehouseDataSourceWriter: Handling write: database:sactest, table:sac_test, savemode: Append, tableExists:true, createTable:false, loadData:true
+20/01/22 21:20:42 INFO HiveWarehouseDataSourceWriter: Load data query: LOAD DATA INPATH '/tmp/20200122212037-a4bdd5f9-1a43-4073-bb88-2f4c662516a3' INTO TABLE sactest.sac_test
+20/01/22 21:20:43 INFO HiveWarehouseDataSourceWriter: Commit job 20200122212037-a4bdd5f9-1a43-4073-bb88-2f4c662516a3
+20/01/22 21:20:43 INFO WriteToDataSourceV2Exec: Data source writer com.hortonworks.spark.sql.hive.llap.HiveWarehouseDataSourceWriter@7f5e8a79 committed.
+20/01/22 21:20:43 INFO ContextCleaner: Cleaned accumulator 18
+20/01/22 21:20:43 INFO ContextCleaner: Cleaned accumulator 23
+20/01/22 21:20:43 INFO ContextCleaner: Cleaned accumulator 10
+20/01/22 21:20:43 INFO ContextCleaner: Cleaned accumulator 24
+20/01/22 21:20:43 INFO ContextCleaner: Cleaned accumulator 11
+20/01/22 21:20:43 INFO ContextCleaner: Cleaned accumulator 21
+20/01/22 21:20:43 INFO BlockManagerInfo: Removed broadcast_1_piece0 on cluster3-node-0.dlm.local:44424 in memory (size: 40.9 KB, free: 366.3 MB)
+20/01/22 21:20:43 INFO SparkContext: Invoking stop() from shutdown hook
+20/01/22 21:20:43 INFO HwcSparkListener: Spark onApplicationEnd event triggered, closing all llap resources
+20/01/22 21:20:43 INFO BlockManagerInfo: Removed broadcast_1_piece0 on cluster3-node-1.dlm.local:37125 in memory (size: 40.9 KB, free: 366.3 MB)
+20/01/22 21:20:43 INFO AbstractConnector: Stopped Spark@17f3cb74{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+20/01/22 21:20:43 INFO SparkUI: Stopped Spark web UI at http://cluster3-node-0.dlm.local:4041
+20/01/22 21:20:43 WARN HwcSparkListener: Unable to close LlapBaseInputFormat resources cleanly. This may or may not indicate errors.
+java.lang.ExceptionInInitializerError
+	at org.apache.hadoop.hive.llap.LlapBaseInputFormat.<clinit>(LlapBaseInputFormat.java:383)
+	at com.hortonworks.spark.sql.hive.llap.HwcSparkListener.onApplicationEnd(HwcSparkListener.java:43)
+	at org.apache.spark.scheduler.SparkListenerBus$class.doPostEvent(SparkListenerBus.scala:57)
+	at org.apache.spark.scheduler.AsyncEventQueue.doPostEvent(AsyncEventQueue.scala:37)
+	at org.apache.spark.scheduler.AsyncEventQueue.doPostEvent(AsyncEventQueue.scala:37)
+	at org.apache.spark.util.ListenerBus$class.postToAll(ListenerBus.scala:91)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$super$postToAll(AsyncEventQueue.scala:92)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:92)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1323)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
+Caused by: java.lang.IllegalStateException: Shutdown in progress, cannot add a shutdownHook
+	at org.apache.hadoop.util.ShutdownHookManager.addShutdownHook(ShutdownHookManager.java:301)
+	at shadehive.org.apache.hive.common.util.ShutdownHookManager.<clinit>(ShutdownHookManager.java:45)
+	... 15 more
+20/01/22 21:20:43 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/01/22 21:20:43 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/01/22 21:20:43 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/01/22 21:20:43 INFO SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+20/01/22 21:20:43 INFO YarnClientSchedulerBackend: Stopped
+20/01/22 21:20:43 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/01/22 21:20:43 INFO MemoryStore: MemoryStore cleared
+20/01/22 21:20:43 INFO BlockManager: BlockManager stopped
+20/01/22 21:20:43 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/01/22 21:20:43 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/01/22 21:20:43 INFO SparkContext: Successfully stopped SparkContext
+20/01/22 21:20:43 INFO ShutdownHookManager: Shutdown hook called
+20/01/22 21:20:43 INFO ShutdownHookManager: Deleting directory /tmp/spark-3a570e64-fc9d-4958-9955-a2884c39982d
+20/01/22 21:20:43 INFO ShutdownHookManager: Deleting directory /tmp/spark-3a570e64-fc9d-4958-9955-a2884c39982d/pyspark-29a394ae-952c-48f1-9577-eb8840c2f349
+20/01/22 21:20:43 INFO ShutdownHookManager: Deleting directory /tmp/spark-7b5a884e-3e4d-4a13-b92c-322ce2e17af2
