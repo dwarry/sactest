@@ -17,7 +17,7 @@ Simple test project to investigate the Spark Atlas Connector. This is intended t
 
 * load_test_data.py
 
-  PySpark job that loads data from a file in HDFS and saves it to Hive using the Hive Warehouse Connector
+  PySpark job that loads data from a file in HDFS into a DataFrame and saves it to Hive using the Hive Warehouse Connector
 
 * submit_load_test_data.sh
 
