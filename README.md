@@ -1,5 +1,5 @@
 # sactest
-Simple test project to investigate the Spark Atlas Connector
+Simple test project to investigate the Spark Atlas Connector. This is intended to be a Minimal Reproducible Example of using Spark in the way that our existing ETL scripts do, in order to validate that Atlas can collect the lineage metadata we are expecting. 
 
 ## Environment
 * The test was run on a new cluster with HDP3.1.4 installed. 
